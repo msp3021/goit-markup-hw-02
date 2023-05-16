@@ -1,23 +1,22 @@
 :root {
   --logo-color:#2196F3;
-  --backgorund-color:#FFFFFF;
-  --used-in-fonts:#212121 ;
-  --second-background:#75757575 ;
-  
+ 
+  --paragraph-description:#75757575 ;
+
 }
 
 
 body {
   background: #FFFFFF;
-  font-family: font-family:'Roboto', sans-serif;
+  font-family:'Roboto', sans-serif;
 }
 
 
 .logo{
-  color:#2196F3;
+  color:var(--logo-color);
   font-weight: 700;
   font-size: 26px;
-  font:'Raleway', sans-serif;
+  font family:'Raleway', sans-serif;
 }
 .logo2 {
   color:#FFFFFF;
@@ -50,7 +49,7 @@ font-weight: 700;
 }
 
 p{
-  color:#757575;
+  color:var(--paragraph-description);
   font-size: 16px;
 }
 
